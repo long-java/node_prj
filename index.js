@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("🚀 Website của bạn đã live!");
+  res.send("<center><h1>Long ❤ Lam</h1></center>");
 });
 
 const port = process.env.PORT || 3000;  
